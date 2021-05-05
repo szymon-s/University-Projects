@@ -1,0 +1,14 @@
+pl\polsl\JAXRSConfiguration.class
+pl\polsl\servlets\ShowDataServlet.class
+pl\polsl\servlets\CreateModelServlet.class
+pl\polsl\Model\QuickSort.class
+pl\polsl\servlets\FileChooserServlet.class
+pl\polsl\Model\SelectionSort.class
+pl\polsl\servlets\SortDataServlet.class
+pl\polsl\Model\Model.class
+pl\polsl\servlets\LoadDataServlet.class
+pl\polsl\Model\InsertionSort.class
+pl\polsl\Model\SortAlgorithm.class
+pl\polsl\Model\EmptyFileException.class
+pl\polsl\resources\JavaEE8Resource.class
+pl\polsl\Model\BubbleSort.class

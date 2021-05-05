@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Sort Visualization</title>
+    </head>
+    <body style="text-align:center; padding: 10% 0;">
+        <div style=" height:auto; border: 3px solid black; margin: auto; width: 50%;background-color: #a6faff;">
+
+            <h3>Load File</h3>
+            <form action="FileChooser" method="post" enctype="multipart/form-data" >
+                <input type="file"  accept=".txt" size="50" name="dataFile" id="dataFile"><br/><br/>    
+                <input type="submit" value="Upload File">
+            </form><br/>
+            <hr>
+            <h3>Load Data</h3>
+            <form action="LoadData">   
+                <input type="submit" value="Load Data From File" />
+            </form><br/>
+            <hr>
+            <h3>Select Sort Algorithm And Sort Data </h3>
+            <form action="SortData" method="GET"> 
+                <input type="radio" id="BubbleSort" name="SortAlgorithm" value="BubbleSort" checked>
+                <label for="BubbleSort">Bubble Sort</label><br>
+                <input type="radio" id="QuickSort" name="SortAlgorithm" value="QuickSort">
+                <label for="QuickSort">Quick Sort</label><br>
+                <input type="radio" id="InsertionSort" name="SortAlgorithm" value="InsertionSort">
+                <label for="InsertionSort">Insertion Sort</label><br>
+                <input type="radio" id="SelectionSort" name="SortAlgorithm" value="SelectionSort">
+                <label for="SelectionSort">Selection Sort</label><br><br>
+                <input type="submit" value="Sort" />
+            </form><br/>
+            <hr>
+            <h3>Show Sort Visualization</h3>
+            <form action="ShowData">   
+                <input type="submit" value="Sort Visualization" />
+            </form><br/>
+
+        </div>
+    </body>
+</html>

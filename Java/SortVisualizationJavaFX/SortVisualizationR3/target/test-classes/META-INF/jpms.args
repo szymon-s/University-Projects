@@ -1,0 +1,4 @@
+--patch-module
+pl.polsl.Controller=_
+--add-reads
+pl.polsl.Controller=ALL-UNNAMED

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #32a2a8;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.Controller.Controller">
+   <children>
+      <Button fx:id="selectFileButton" layoutX="18.0" layoutY="68.0" mnemonicParsing="false" onAction="#openFileChooser" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: #d8f7b0;" text="Select File" />
+      <Button fx:id="sortButton" layoutX="320.0" layoutY="68.0" mnemonicParsing="false" onAction="#sortData" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #d8f7b0;" text="Sort" />
+      <TextArea fx:id="messageTextArea" layoutX="19.0" layoutY="120.0" prefHeight="32.0" prefWidth="564.0" style="-fx-background-color: #d8f7b0;" />
+      <ComboBox fx:id="algorithmsComboBox" layoutX="412.0" layoutY="68.0" prefHeight="25.0" prefWidth="170.0" promptText="Select Sort Algorithm" style="-fx-background-color: #d8f7b0;" />
+
+      <Button fx:id="loadDataButton" layoutX="146.0" layoutY="68.0" mnemonicParsing="false" onAction="#loadDataFromFile" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: #d8f7b0;" text="Load Data" />
+      <Label layoutX="231.0" prefHeight="46.0" prefWidth="141.0" text="Sort Visualization" textFill="#d8f7b0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="sortStepsTable" fixedCellSize="1.0" layoutX="18.0" layoutY="179.0" prefHeight="194.0" prefWidth="564.0" style="-fx-background-color: #d8f7b0;" />
+   </children>
+</AnchorPane>

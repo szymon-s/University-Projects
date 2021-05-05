@@ -1,0 +1,12 @@
+pl\polsl\Controller\App.class
+pl\polsl\Model\QuickSort.class
+pl\polsl\Model\SelectionSort.class
+pl\polsl\Model\Model.class
+pl\polsl\Model\InsertionSort.class
+pl\polsl\View\View.class
+module-info.class
+pl\polsl\Controller\Main.class
+pl\polsl\Model\SortAlgorithm.class
+pl\polsl\Model\EmptyFileException.class
+pl\polsl\Model\BubbleSort.class
+pl\polsl\Controller\Controller.class

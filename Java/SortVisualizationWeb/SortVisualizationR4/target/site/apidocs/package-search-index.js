@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"pl.polsl"},{"l":"pl.polsl.Model"},{"l":"pl.polsl.resources"},{"l":"pl.polsl.servlets"}]
