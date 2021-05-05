@@ -1,0 +1,55 @@
+
+  .kartkaBody {
+                background-image: url('kartka.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+              }
+
+
+  .prezentybody {
+                      background-color: #c2ffa1;
+                }
+
+  .przycisk{
+                width: 35%;
+                height: 5%;
+                margin-top: 5%;
+                margi-bot: 5%;
+                color:  #c2ffa1;
+                background-color: black;
+            }
+
+  .kontener{
+                float: left;
+                width: 50%
+           }
+
+  .nadawca{
+                height: 13%;
+                margin-top: 2%;
+                margin-left: 60%;
+          }
+
+.prezenty{
+               margin-top: 10%;
+               margin-left: 5%;
+               border: 1px;
+               height: 50%;
+               width: 100%;
+               overflow: auto;
+         }
+
+
+
+
+
+  .miejsceNaZdjecie{
+                        height: 18.5%;
+                        margin-top: 4.75%;
+                        margin-left: 67%;
+                        margin-right: 9.5%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100% 100%;
+                   }

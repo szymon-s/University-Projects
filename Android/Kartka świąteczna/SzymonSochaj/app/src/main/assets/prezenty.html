@@ -1,0 +1,44 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="prezentyBody">
+<center>
+    <div id="prezenty">
+
+    </div>
+    <button class="przycisk" onclick="dodajPrezent()">Dodaj prezent</button>
+    <br/>
+    <button class="przycisk" onclick="zrobKartke()">Generuj</button>
+</center>
+<script type="text/javascript">
+    function dodajPrezent()
+    {
+        activity.pobierzPrezent()
+        while(1){
+                if(activity.czyPrezentPobrany()){
+                    document.getElementById("prezenty").innerHTML=activity.zrobListePrezentow();
+                    break;
+                }
+            }
+    }
+
+
+
+    function zrobKartke()
+    {
+        activity.zrobZdjecie()
+        while(1){
+            if(activity.czyZdjecieZrobione()){
+                    activity.pobierzLokalizacje();
+                    activity.zrobKartke();
+                    document.getElementById("prezenty").innerHTML=activity.inicjalizacja();
+                    break;
+            }
+        }
+    }
+
+
+</script>
+</body>
+</html>
