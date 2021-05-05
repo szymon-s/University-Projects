@@ -1,11 +1,11 @@
 ﻿Projekt Systemy Mikroprocesorowe i Wbudowane
 ====================================
 
-####Autor: Szymon Sochaj  
+## Autor: Szymon Sochaj  
 Kierunek: Informatyka  
 
 
-####Temat: Układ sterujący pompą cyrkulacyjną w instalacji wodnej.
+## Temat: Układ sterujący pompą cyrkulacyjną w instalacji wodnej.
 Układ pozwalający wybrać użytkownikowi jeden z trzech dostępnych trybów działania pompy:  
 * tryb manualny  
 * tryb temperaturowy  
